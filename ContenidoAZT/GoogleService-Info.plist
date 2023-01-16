@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>847275573450-eir325sapet8jnl7b0gu450uqbh22sbd.apps.googleusercontent.com</string>
+	<string>897752143062-h1g46mio2runa5ri670bcve3542ikkkj.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.847275573450-eir325sapet8jnl7b0gu450uqbh22sbd</string>
+	<string>com.googleusercontent.apps.897752143062-h1g46mio2runa5ri670bcve3542ikkkj</string>
 	<key>API_KEY</key>
-	<string>AIzaSyBGqLfpqcCtkEQrhTnx3rC9ZU8UCvbqbac</string>
+	<string>AIzaSyBU73fUruEn5yH9aN_s7rsl3K-Ffv0JPjo</string>
 	<key>GCM_SENDER_ID</key>
-	<string>847275573450</string>
+	<string>897752143062</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.abelGlz.contenidoAzt</string>
+	<string>com.abelGlz.ContenidoAZ</string>
 	<key>PROJECT_ID</key>
-	<string>contenidotvaabel2023</string>
+	<string>appcontenidotva</string>
 	<key>STORAGE_BUCKET</key>
-	<string>contenidotvaabel2023.appspot.com</string>
+	<string>appcontenidotva.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -29,6 +29,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:847275573450:ios:ff566f23b7670ee31af433</string>
+	<string>1:897752143062:ios:0b6659075f4d527bf8a577</string>
 </dict>
 </plist>

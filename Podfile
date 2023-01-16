@@ -6,7 +6,7 @@ target 'ContenidoAZT' do
   use_frameworks!
 
 pod 'SideMenu'
- 
+pod 'Firebase/Analytics'
 
   target 'ContenidoAZTTests' do
     inherit! :search_paths

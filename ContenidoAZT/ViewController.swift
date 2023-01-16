@@ -8,7 +8,6 @@
 import UIKit
 import SafariServices
 import SideMenu
-import FirebaseCore
 
 class ViewController: UIViewController {
     var contentTVA : [Item] = []
