@@ -8,9 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		A56862977182D41787BD06F4 /* Pods_ContenidoAZTTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDD1FDCDEF9547C21D119E08 /* Pods_ContenidoAZTTests.framework */; };
-		DC6D61E52971E8FC00896AAC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DC6D61E42971E8FC00896AAC /* GoogleService-Info.plist */; };
-		DC6D61E62971E90600896AAC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DC6D61E42971E8FC00896AAC /* GoogleService-Info.plist */; };
-		DC6D61E72971E90700896AAC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DC6D61E42971E8FC00896AAC /* GoogleService-Info.plist */; };
 		DC84CBCF28BFFC8400C76FC0 /* CeldaContenido.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC84CBCD28BFFC8400C76FC0 /* CeldaContenido.swift */; };
 		DC84CBD028BFFC8400C76FC0 /* CeldaContenido.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC84CBCE28BFFC8400C76FC0 /* CeldaContenido.xib */; };
 		DC930CA128E4F5A7004A7EDB /* MenuListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC930CA028E4F5A7004A7EDB /* MenuListController.swift */; };
@@ -26,6 +23,7 @@
 		DCBA8B0F28BEC616003BCA65 /* ContenidoAZTUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBA8B0E28BEC616003BCA65 /* ContenidoAZTUITests.swift */; };
 		DCBA8B1128BEC616003BCA65 /* ContenidoAZTUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBA8B1028BEC616003BCA65 /* ContenidoAZTUITestsLaunchTests.swift */; };
 		DCC045FB295E049F00217442 /* ViewControllerB.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC045FA295E049F00217442 /* ViewControllerB.swift */; };
+		DCFADC18297530F200BE57D7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DCFADC17297530F200BE57D7 /* GoogleService-Info.plist */; };
 		DDD9A5723129211C82C4FA6C /* Pods_ContenidoAZT_ContenidoAZTUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B588C33A6FF0403BCC5CEB64 /* Pods_ContenidoAZT_ContenidoAZTUITests.framework */; };
 		FD6756DC0A7C1CBC0A114FBC /* Pods_ContenidoAZT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13C47A821652C8D5AAA19473 /* Pods_ContenidoAZT.framework */; };
 /* End PBXBuildFile section */
@@ -56,7 +54,6 @@
 		A336176147D5C5E376FEA4D1 /* Pods-ContenidoAZT-ContenidoAZTUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContenidoAZT-ContenidoAZTUITests.debug.xcconfig"; path = "Target Support Files/Pods-ContenidoAZT-ContenidoAZTUITests/Pods-ContenidoAZT-ContenidoAZTUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B588C33A6FF0403BCC5CEB64 /* Pods_ContenidoAZT_ContenidoAZTUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ContenidoAZT_ContenidoAZTUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9D1F1D46930095C6A160BA4 /* Pods-ContenidoAZTTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContenidoAZTTests.debug.xcconfig"; path = "Target Support Files/Pods-ContenidoAZTTests/Pods-ContenidoAZTTests.debug.xcconfig"; sourceTree = "<group>"; };
-		DC6D61E42971E8FC00896AAC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		DC84CBCD28BFFC8400C76FC0 /* CeldaContenido.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaContenido.swift; sourceTree = "<group>"; };
 		DC84CBCE28BFFC8400C76FC0 /* CeldaContenido.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CeldaContenido.xib; sourceTree = "<group>"; };
 		DC930CA028E4F5A7004A7EDB /* MenuListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuListController.swift; sourceTree = "<group>"; };
@@ -76,6 +73,7 @@
 		DCBA8B0E28BEC616003BCA65 /* ContenidoAZTUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContenidoAZTUITests.swift; sourceTree = "<group>"; };
 		DCBA8B1028BEC616003BCA65 /* ContenidoAZTUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContenidoAZTUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		DCC045FA295E049F00217442 /* ViewControllerB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerB.swift; sourceTree = "<group>"; };
+		DCFADC17297530F200BE57D7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		EDD1FDCDEF9547C21D119E08 /* Pods_ContenidoAZTTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ContenidoAZTTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -163,8 +161,8 @@
 				DCBA8AF328BEC615003BCA65 /* Main.storyboard */,
 				DCBA8AF628BEC616003BCA65 /* Assets.xcassets */,
 				DCBA8AF828BEC616003BCA65 /* LaunchScreen.storyboard */,
-				DC6D61E42971E8FC00896AAC /* GoogleService-Info.plist */,
 				DCBA8AFB28BEC616003BCA65 /* Info.plist */,
+				DCFADC17297530F200BE57D7 /* GoogleService-Info.plist */,
 				DC84CBCD28BFFC8400C76FC0 /* CeldaContenido.swift */,
 				DC84CBCE28BFFC8400C76FC0 /* CeldaContenido.xib */,
 			);
@@ -309,7 +307,7 @@
 			files = (
 				DCBA8AFA28BEC616003BCA65 /* LaunchScreen.storyboard in Resources */,
 				DCBA8AF728BEC616003BCA65 /* Assets.xcassets in Resources */,
-				DC6D61E52971E8FC00896AAC /* GoogleService-Info.plist in Resources */,
+				DCFADC18297530F200BE57D7 /* GoogleService-Info.plist in Resources */,
 				DCBA8AF528BEC615003BCA65 /* Main.storyboard in Resources */,
 				DC84CBD028BFFC8400C76FC0 /* CeldaContenido.xib in Resources */,
 			);
@@ -319,7 +317,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC6D61E62971E90600896AAC /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,7 +324,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC6D61E72971E90700896AAC /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -640,7 +636,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.1.2;
-				PRODUCT_BUNDLE_IDENTIFIER = com.abelGlz.ContenidoAZT;
+				PRODUCT_BUNDLE_IDENTIFIER = com.abelGlz.ContenidoAZ;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
