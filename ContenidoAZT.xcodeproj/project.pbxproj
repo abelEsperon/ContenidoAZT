@@ -622,7 +622,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = PDSXV2TQRM;
+				DEVELOPMENT_TEAM = 4R395HWJG8;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ContenidoAZT/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
