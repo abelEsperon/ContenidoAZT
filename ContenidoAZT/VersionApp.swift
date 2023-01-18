@@ -19,18 +19,18 @@ class VersionApp {
     }
     
 }
-//extension Bundle {
-//
-//    func applicationBuildNumber () -> String {
-//        if var compil = (Bundle.mainBundle().infoDictionary?["CFBundleVersion"] as String {
-//            return compil
-//        }
-//        return "Build Number Not Available"
-//    }
-//
+
+
+    func buildNumber () -> String {
+        if var compil = Bundle.main.infoDictionary?["CFBundleVersion"] as? String {
+            return compil
+        }
+        return "Build Number Not Available"
+    }
+
 //    let versionNumber = NSBundle.applicationVersionNumber
-//
-//}
+
+        
 //
 //func getVersionString(sTitulo:String) -> String{
 //    var sVersion = ""

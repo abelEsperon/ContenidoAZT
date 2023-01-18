@@ -61,6 +61,7 @@ class MenuListController: UITableViewController {
         }
     }
     
+//MARK: Otras funciones
     
     func getVersion() -> String {
         guard let version = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String else {
@@ -69,10 +70,17 @@ class MenuListController: UITableViewController {
         return version
     }
     
-//    func startNavigation( ){
-//        present(ViewControllerB(), animated: false)
-//    }
-//    
+    func buildNumber () -> String {
+        if var build = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String {
+            return build
+        }
+        return "Build Number Not Available"
+    }
+    
+    func startNavigation( ){
+        present(ViewControllerB(), animated: true)
+    }
+    
 }
 
 
