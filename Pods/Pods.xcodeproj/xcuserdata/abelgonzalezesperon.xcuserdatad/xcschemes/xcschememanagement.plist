@@ -72,21 +72,21 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>11</integer>
+			<integer>1</integer>
 		</dict>
 		<key>Pods-ContenidoAZT.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>10</integer>
+			<integer>0</integer>
 		</dict>
 		<key>Pods-ContenidoAZTTests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>12</integer>
+			<integer>2</integer>
 		</dict>
 		<key>PromisesObjC.xcscheme</key>
 		<dict>
@@ -100,7 +100,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>14</integer>
+			<integer>3</integer>
 		</dict>
 		<key>nanopb.xcscheme</key>
 		<dict>
