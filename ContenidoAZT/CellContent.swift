@@ -7,8 +7,9 @@
 
 import UIKit
 
-class CeldaContenido: UITableViewCell {
-    @IBOutlet weak var celdaContenido: UIImageView!
+class CellContent: UITableViewCell {
+    
+    @IBOutlet weak var cellContent: UIImageView!
     
     override func awakeFromNib() {
         super.awakeFromNib()

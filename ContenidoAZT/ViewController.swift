@@ -20,7 +20,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         // Se registra celda personilizada
-        tableContent.register(UINib(nibName: "CeldaContenido", bundle: nil), forCellReuseIdentifier: "tablaContenido")
+        tableContent.register(UINib(nibName: "CellContent", bundle: nil), forCellReuseIdentifier: "tablaContenido")
         
         tableContent.delegate = self
         tableContent.dataSource = self
@@ -80,13 +80,13 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
     
     //MARK: - Fill Table
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let celda = tableContent.dequeueReusableCell(withIdentifier: "tablaContenido", for: indexPath) as! CeldaContenido
+        let celda = tableContent.dequeueReusableCell(withIdentifier: "tablaContenido", for: indexPath) as! CellContent
 //        celda.textLabel?.text = articuloNotas[indexPath.row].tipo
 //        celda.detailTextLabel?.text = articuloNotas[indexPath.row].imagetv
         
         if let url = URL(string: contentTVA[indexPath.row].imagen ) {
             if let imagenData = try? Data(contentsOf: url) {
-                celda.celdaContenido.image = UIImage(data: imagenData)
+                celda.cellContent.image = UIImage(data: imagenData)
             }
         }
         return celda
@@ -95,9 +95,10 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
     //MARK: - Cell Selecction
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableContent.deselectRow(at: indexPath, animated: true)
-        
          //let titulo = URL(string: sitioTVA[indexPath.startIndex].title)
+        
         let acceso = contentTVA[indexPath.row].itemPrivate
+            
         if ("0" == acceso) {
             let alert = UIAlertController(title: "Contenido no disponible", message: "Intente mas tarde", preferredStyle: UIAlertController.Style.alert)
             alert.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil))
@@ -112,5 +113,10 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
         
         present(VCSS, animated: true)
     }
+    
+    func startNavigation( ){
+        present(ViewControllerB(), animated: false)
+    }
+    
 }
     
