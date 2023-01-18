@@ -6,64 +6,91 @@
 	<dict>
 		<key>Firebase.xcscheme</key>
 		<dict>
+<<<<<<< HEAD
 			<key>isShown</key>
 			<false/>
+=======
+>>>>>>> develop
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
 		<key>FirebaseAnalytics.xcscheme</key>
 		<dict>
+<<<<<<< HEAD
 			<key>isShown</key>
 			<false/>
+=======
+>>>>>>> develop
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
 		<key>FirebaseCore.xcscheme</key>
 		<dict>
+<<<<<<< HEAD
 			<key>isShown</key>
 			<false/>
+=======
+>>>>>>> develop
 			<key>orderHint</key>
 			<integer>2</integer>
 		</dict>
 		<key>FirebaseCoreDiagnostics.xcscheme</key>
 		<dict>
+<<<<<<< HEAD
 			<key>isShown</key>
 			<false/>
+=======
+>>>>>>> develop
 			<key>orderHint</key>
 			<integer>3</integer>
 		</dict>
 		<key>FirebaseCoreInternal.xcscheme</key>
 		<dict>
+<<<<<<< HEAD
 			<key>isShown</key>
 			<false/>
+=======
+>>>>>>> develop
 			<key>orderHint</key>
 			<integer>4</integer>
 		</dict>
 		<key>FirebaseInstallations.xcscheme</key>
 		<dict>
+<<<<<<< HEAD
 			<key>isShown</key>
 			<false/>
+=======
+>>>>>>> develop
 			<key>orderHint</key>
 			<integer>5</integer>
 		</dict>
 		<key>GoogleAppMeasurement.xcscheme</key>
 		<dict>
+<<<<<<< HEAD
 			<key>isShown</key>
 			<false/>
+=======
+>>>>>>> develop
 			<key>orderHint</key>
 			<integer>6</integer>
 		</dict>
 		<key>GoogleDataTransport.xcscheme</key>
 		<dict>
+<<<<<<< HEAD
 			<key>isShown</key>
 			<false/>
+=======
+>>>>>>> develop
 			<key>orderHint</key>
 			<integer>7</integer>
 		</dict>
 		<key>GoogleUtilities.xcscheme</key>
 		<dict>
+<<<<<<< HEAD
 			<key>isShown</key>
 			<false/>
+=======
+>>>>>>> develop
 			<key>orderHint</key>
 			<integer>8</integer>
 		</dict>
@@ -72,21 +99,26 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>1</integer>
+			<integer>11</integer>
 		</dict>
 		<key>Pods-ContenidoAZT.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>10</integer>
 		</dict>
 		<key>Pods-ContenidoAZTTests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>2</integer>
+			<integer>12</integer>
+		</dict>
+		<key>PromisesObjC.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>13</integer>
 		</dict>
 		<key>PromisesObjC.xcscheme</key>
 		<dict>
@@ -100,7 +132,12 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>3</integer>
+			<integer>14</integer>
+		</dict>
+		<key>nanopb.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>9</integer>
 		</dict>
 		<key>nanopb.xcscheme</key>
 		<dict>
