@@ -4,10 +4,10 @@
 //
 //  Created by Abel Gonzalez on 29/12/22.
 //
-
+import Foundation
 import UIKit
 
-class ViewControllerB: UIViewController{
+class ViewControllerB: UIViewController {
     
     private var dismissUIButton: UIButton {
         var config = UIButton.Configuration.bordered()

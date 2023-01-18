@@ -10,7 +10,6 @@ import SideMenu
 
 class MenuListController: UITableViewController {
     var items: [String] = ["Inicio","Realities","Programas","Series","Versión"]
-//    var sites = [String]( )
     
     let darkColor = UIColor(red: 33/255.0, green: 33/255.0, blue: 33/255.0, alpha: 1)
     
@@ -41,7 +40,7 @@ class MenuListController: UITableViewController {
         
         switch items[indexPath.item] {
         case items[0]:
-            print(" ")
+            print("Inicio ")
         case items[1]:
             print("Seleccionaste Realities")
             
@@ -49,10 +48,10 @@ class MenuListController: UITableViewController {
             print("Programas")
             
         case items[3]:
-            startNavigation()
+            print("Series")
             
         case items[4]:
-            let alert = UIAlertController(title: "Version de la App", message: "Version 1.0", preferredStyle: UIAlertController.Style.alert)
+            let alert = UIAlertController(title: "Version de la App", message: getVersion(), preferredStyle: UIAlertController.Style.alert)
             alert.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil))
             self.present(alert, animated: true, completion: nil)
             
@@ -62,8 +61,24 @@ class MenuListController: UITableViewController {
         }
     }
     
+//MARK: Otras funciones
+    
+    func getVersion() -> String {
+        guard let version = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String else {
+            return "no version info"
+        }
+        return version
+    }
+    
+    func buildNumber () -> String {
+        if var build = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String {
+            return build
+        }
+        return "Build Number Not Available"
+    }
+    
     func startNavigation( ){
-        present(ViewControllerB(), animated: false)
+        present(ViewControllerB(), animated: true)
     }
     
 }

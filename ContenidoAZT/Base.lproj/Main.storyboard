@@ -55,7 +55,7 @@
                     </view>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="qDz-ea-brv">
-                        <barButtonItem key="leftBarButtonItem" image="bar_ham" style="plain" id="F1u-fE-fe7">
+                        <barButtonItem key="leftBarButtonItem" title="Contenido" image="bar_ham" style="plain" id="F1u-fE-fe7">
                             <inset key="imageInsets" minX="-106" minY="0.0" maxX="0.0" maxY="-3"/>
                             <inset key="largeContentSizeImageInsets" minX="0.0" minY="1" maxX="6" maxY="0.0"/>
                             <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -81,14 +81,34 @@
                     <view key="view" contentMode="scaleToFill" id="0Fq-dF-6eT">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BGc-bk-Gvj">
+                                <rect key="frame" x="0.0" y="60" width="393" height="792"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3ZB-uC-5QW">
+                                        <rect key="frame" x="127" y="371" width="139" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Dismiss Button"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="dLO-B6-cQ0"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="BGc-bk-Gvj" firstAttribute="trailing" secondItem="dLO-B6-cQ0" secondAttribute="trailing" id="Jzy-sY-bnd"/>
+                            <constraint firstAttribute="bottom" secondItem="BGc-bk-Gvj" secondAttribute="bottom" id="YCZ-DU-Zd8"/>
+                            <constraint firstItem="BGc-bk-Gvj" firstAttribute="leading" secondItem="dLO-B6-cQ0" secondAttribute="leading" id="h8N-MF-8EX"/>
+                            <constraint firstItem="BGc-bk-Gvj" firstAttribute="top" secondItem="0Fq-dF-6eT" secondAttribute="top" constant="60" id="hGB-gl-W6h"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="PBm-S4-gqf"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6JL-NJ-rq3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1800" y="250"/>
+            <point key="canvasLocation" x="1799.2366412213739" y="250"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="3Ss-Bj-RbP">

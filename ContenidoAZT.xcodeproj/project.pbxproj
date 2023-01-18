@@ -8,8 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		A56862977182D41787BD06F4 /* Pods_ContenidoAZTTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDD1FDCDEF9547C21D119E08 /* Pods_ContenidoAZTTests.framework */; };
-		DC84CBCF28BFFC8400C76FC0 /* CeldaContenido.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC84CBCD28BFFC8400C76FC0 /* CeldaContenido.swift */; };
-		DC84CBD028BFFC8400C76FC0 /* CeldaContenido.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC84CBCE28BFFC8400C76FC0 /* CeldaContenido.xib */; };
+		DC27FFF529775275001825B1 /* VersionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC27FFF429775275001825B1 /* VersionApp.swift */; };
+		DC84CBCF28BFFC8400C76FC0 /* CellContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC84CBCD28BFFC8400C76FC0 /* CellContent.swift */; };
+		DC84CBD028BFFC8400C76FC0 /* CellContent.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC84CBCE28BFFC8400C76FC0 /* CellContent.xib */; };
 		DC930CA128E4F5A7004A7EDB /* MenuListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC930CA028E4F5A7004A7EDB /* MenuListController.swift */; };
 		DCA9AE9028DCC40A00FAE85F /* StructC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA9AE8F28DCC40A00FAE85F /* StructC.swift */; };
 		DCA9AE9228DD098500FAE85F /* StructS.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA9AE9128DD098500FAE85F /* StructS.swift */; };
@@ -54,8 +55,9 @@
 		A336176147D5C5E376FEA4D1 /* Pods-ContenidoAZT-ContenidoAZTUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContenidoAZT-ContenidoAZTUITests.debug.xcconfig"; path = "Target Support Files/Pods-ContenidoAZT-ContenidoAZTUITests/Pods-ContenidoAZT-ContenidoAZTUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B588C33A6FF0403BCC5CEB64 /* Pods_ContenidoAZT_ContenidoAZTUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ContenidoAZT_ContenidoAZTUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9D1F1D46930095C6A160BA4 /* Pods-ContenidoAZTTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContenidoAZTTests.debug.xcconfig"; path = "Target Support Files/Pods-ContenidoAZTTests/Pods-ContenidoAZTTests.debug.xcconfig"; sourceTree = "<group>"; };
-		DC84CBCD28BFFC8400C76FC0 /* CeldaContenido.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaContenido.swift; sourceTree = "<group>"; };
-		DC84CBCE28BFFC8400C76FC0 /* CeldaContenido.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CeldaContenido.xib; sourceTree = "<group>"; };
+		DC27FFF429775275001825B1 /* VersionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VersionApp.swift; sourceTree = "<group>"; };
+		DC84CBCD28BFFC8400C76FC0 /* CellContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellContent.swift; sourceTree = "<group>"; };
+		DC84CBCE28BFFC8400C76FC0 /* CellContent.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CellContent.xib; sourceTree = "<group>"; };
 		DC930CA028E4F5A7004A7EDB /* MenuListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuListController.swift; sourceTree = "<group>"; };
 		DCA9AE8F28DCC40A00FAE85F /* StructC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructC.swift; sourceTree = "<group>"; };
 		DCA9AE9128DD098500FAE85F /* StructS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructS.swift; sourceTree = "<group>"; };
@@ -163,8 +165,9 @@
 				DCBA8AF828BEC616003BCA65 /* LaunchScreen.storyboard */,
 				DCBA8AFB28BEC616003BCA65 /* Info.plist */,
 				DCFADC17297530F200BE57D7 /* GoogleService-Info.plist */,
-				DC84CBCD28BFFC8400C76FC0 /* CeldaContenido.swift */,
-				DC84CBCE28BFFC8400C76FC0 /* CeldaContenido.xib */,
+				DC84CBCD28BFFC8400C76FC0 /* CellContent.swift */,
+				DC84CBCE28BFFC8400C76FC0 /* CellContent.xib */,
+				DC27FFF429775275001825B1 /* VersionApp.swift */,
 			);
 			path = ContenidoAZT;
 			sourceTree = "<group>";
@@ -309,7 +312,7 @@
 				DCBA8AF728BEC616003BCA65 /* Assets.xcassets in Resources */,
 				DCFADC18297530F200BE57D7 /* GoogleService-Info.plist in Resources */,
 				DCBA8AF528BEC615003BCA65 /* Main.storyboard in Resources */,
-				DC84CBD028BFFC8400C76FC0 /* CeldaContenido.xib in Resources */,
+				DC84CBD028BFFC8400C76FC0 /* CellContent.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,8 +445,9 @@
 				DCBA8AF228BEC615003BCA65 /* ViewController.swift in Sources */,
 				DCA9AE9028DCC40A00FAE85F /* StructC.swift in Sources */,
 				DCBA8AEE28BEC615003BCA65 /* AppDelegate.swift in Sources */,
+				DC27FFF529775275001825B1 /* VersionApp.swift in Sources */,
 				DCBA8AF028BEC615003BCA65 /* SceneDelegate.swift in Sources */,
-				DC84CBCF28BFFC8400C76FC0 /* CeldaContenido.swift in Sources */,
+				DC84CBCF28BFFC8400C76FC0 /* CellContent.swift in Sources */,
 				DC930CA128E4F5A7004A7EDB /* MenuListController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
