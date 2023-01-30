@@ -8,6 +8,7 @@
 import UIKit
 import SafariServices
 import SideMenu
+import FirebaseAnalytics
 
 class ViewController: UIViewController {
     var contentTVA : [Item] = []
@@ -16,6 +17,8 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var tableContent: UITableView!
 
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -33,9 +36,13 @@ class ViewController: UIViewController {
         
         SideMenuManager.default.leftMenuNavigationController = menu
         SideMenuManager.default.addPanGestureToPresent(toView: self.view)
+        
+        // Analytics event
+        Analytics.logEvent("InitScreen", parameters: ["message":"Integracion de Firebase"])
     }
     
-    @IBAction func didTapeMenu(){
+    
+    @IBAction func didTapMenu(_ sender: Any) {
         present(menu!, animated: true)
     }
     
@@ -114,9 +121,9 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
         present(VCSS, animated: true)
     }
     
-    func startNavigation( ){
-        present(ViewControllerB(), animated: false)
-    }
+//    func startNavigation( ){
+//        present(ViewControllerB(), animated: false)
+//    }
     
 }
     

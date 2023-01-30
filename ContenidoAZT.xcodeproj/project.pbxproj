@@ -24,6 +24,9 @@
 		DCBA8B0F28BEC616003BCA65 /* ContenidoAZTUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBA8B0E28BEC616003BCA65 /* ContenidoAZTUITests.swift */; };
 		DCBA8B1128BEC616003BCA65 /* ContenidoAZTUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBA8B1028BEC616003BCA65 /* ContenidoAZTUITestsLaunchTests.swift */; };
 		DCC045FB295E049F00217442 /* ViewControllerB.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC045FA295E049F00217442 /* ViewControllerB.swift */; };
+		DCF3B2A12986505200A89B5F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF3B2A02986505200A89B5F /* HomeViewController.swift */; };
+		DCF3B2A32986FD7400A89B5F /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF3B2A22986FD7400A89B5F /* AuthViewController.swift */; };
+		DCF3B2A529872AA600A89B5F /* AuthViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCF3B2A429872AA600A89B5F /* AuthViewController.storyboard */; };
 		DCFADC18297530F200BE57D7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DCFADC17297530F200BE57D7 /* GoogleService-Info.plist */; };
 		DDD9A5723129211C82C4FA6C /* Pods_ContenidoAZT_ContenidoAZTUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B588C33A6FF0403BCC5CEB64 /* Pods_ContenidoAZT_ContenidoAZTUITests.framework */; };
 		FD6756DC0A7C1CBC0A114FBC /* Pods_ContenidoAZT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13C47A821652C8D5AAA19473 /* Pods_ContenidoAZT.framework */; };
@@ -75,6 +78,9 @@
 		DCBA8B0E28BEC616003BCA65 /* ContenidoAZTUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContenidoAZTUITests.swift; sourceTree = "<group>"; };
 		DCBA8B1028BEC616003BCA65 /* ContenidoAZTUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContenidoAZTUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		DCC045FA295E049F00217442 /* ViewControllerB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerB.swift; sourceTree = "<group>"; };
+		DCF3B2A02986505200A89B5F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		DCF3B2A22986FD7400A89B5F /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		DCF3B2A429872AA600A89B5F /* AuthViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AuthViewController.storyboard; sourceTree = "<group>"; };
 		DCFADC17297530F200BE57D7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		EDD1FDCDEF9547C21D119E08 /* Pods_ContenidoAZTTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ContenidoAZTTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -155,6 +161,9 @@
 		DCBA8AEC28BEC615003BCA65 /* ContenidoAZT */ = {
 			isa = PBXGroup;
 			children = (
+				DCF3B2A02986505200A89B5F /* HomeViewController.swift */,
+				DCF3B2A22986FD7400A89B5F /* AuthViewController.swift */,
+				DCF3B2A429872AA600A89B5F /* AuthViewController.storyboard */,
 				DCBA8AED28BEC615003BCA65 /* AppDelegate.swift */,
 				DCBA8AEF28BEC615003BCA65 /* SceneDelegate.swift */,
 				DC930CA028E4F5A7004A7EDB /* MenuListController.swift */,
@@ -309,6 +318,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DCBA8AFA28BEC616003BCA65 /* LaunchScreen.storyboard in Resources */,
+				DCF3B2A529872AA600A89B5F /* AuthViewController.storyboard in Resources */,
 				DCBA8AF728BEC616003BCA65 /* Assets.xcassets in Resources */,
 				DCFADC18297530F200BE57D7 /* GoogleService-Info.plist in Resources */,
 				DCBA8AF528BEC615003BCA65 /* Main.storyboard in Resources */,
@@ -440,11 +450,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCF3B2A32986FD7400A89B5F /* AuthViewController.swift in Sources */,
 				DCA9AE9228DD098500FAE85F /* StructS.swift in Sources */,
 				DCC045FB295E049F00217442 /* ViewControllerB.swift in Sources */,
 				DCBA8AF228BEC615003BCA65 /* ViewController.swift in Sources */,
 				DCA9AE9028DCC40A00FAE85F /* StructC.swift in Sources */,
 				DCBA8AEE28BEC615003BCA65 /* AppDelegate.swift in Sources */,
+				DCF3B2A12986505200A89B5F /* HomeViewController.swift in Sources */,
 				DC27FFF529775275001825B1 /* VersionApp.swift in Sources */,
 				DCBA8AF028BEC615003BCA65 /* SceneDelegate.swift in Sources */,
 				DC84CBCF28BFFC8400C76FC0 /* CellContent.swift in Sources */,

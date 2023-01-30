@@ -7,6 +7,7 @@ target 'ContenidoAZT' do
 
 pod 'SideMenu'
 pod 'Firebase/Analytics'
+pod 'Firebase/Auth'
 
   target 'ContenidoAZTTests' do
     inherit! :search_paths

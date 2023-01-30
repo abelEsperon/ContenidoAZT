@@ -20,7 +20,6 @@ class VersionApp {
     
 }
 
-
     func buildNumber () -> String {
         if var compil = Bundle.main.infoDictionary?["CFBundleVersion"] as? String {
             return compil
