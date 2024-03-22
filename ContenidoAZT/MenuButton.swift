@@ -7,7 +7,7 @@
 import Foundation
 import UIKit
 
-class ViewControllerB: UIViewController {
+class MenuButton: UIViewController {
     
     private var dismissUIButton: UIButton {
         var config = UIButton.Configuration.bordered()

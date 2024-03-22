@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="WBc-Rh-8Zd">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="WBc-Rh-8Zd">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -17,8 +18,8 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="258" estimatedRowHeight="-1" sectionHeaderHeight="3" estimatedSectionHeaderHeight="-1" sectionFooterHeight="3" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="j2e-Rp-wOa">
-                                <rect key="frame" x="0.0" y="133" width="393" height="618"/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <rect key="frame" x="0.0" y="133" width="393" height="719"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <inset key="separatorInset" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="258" id="uBq-Je-JGw">
@@ -29,41 +30,26 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <edgeInsets key="layoutMargins" top="8" left="3" bottom="8" right="3"/>
                                         </tableViewCellContentView>
-                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <edgeInsets key="layoutMargins" top="3" left="0.0" bottom="3" right="0.0"/>
                                         <inset key="separatorInset" minX="2" minY="0.0" maxX="0.0" maxY="0.0"/>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
-                            <tabBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ahg-fb-dmH">
-                                <rect key="frame" x="0.0" y="797" width="393" height="55"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <items>
-                                    <tabBarItem systemItem="favorites" id="l9g-p9-OOh">
-                                        <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="0.0"/>
-                                    </tabBarItem>
-                                    <tabBarItem systemItem="more" id="R2s-SN-Z7N"/>
-                                    <tabBarItem title="Perfil" id="a8E-Zo-hUt"/>
-                                </items>
-                                <color key="selectedImageTintColor" red="0.1097431933" green="0.2356333494" blue="0.33333334329999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                            </tabBar>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="fJf-1t-VOW"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="Ahg-fb-dmH" firstAttribute="leading" secondItem="fJf-1t-VOW" secondAttribute="leading" id="2sV-Vv-A7p"/>
                             <constraint firstItem="fJf-1t-VOW" firstAttribute="trailing" secondItem="j2e-Rp-wOa" secondAttribute="trailing" id="4FZ-eH-Ao5"/>
-                            <constraint firstAttribute="bottom" secondItem="Ahg-fb-dmH" secondAttribute="bottom" id="9j3-WA-SYV"/>
-                            <constraint firstItem="Ahg-fb-dmH" firstAttribute="top" secondItem="j2e-Rp-wOa" secondAttribute="bottom" constant="46" id="Ccg-D6-So8"/>
-                            <constraint firstItem="fJf-1t-VOW" firstAttribute="bottom" secondItem="j2e-Rp-wOa" secondAttribute="bottom" constant="18" id="XhH-ts-wh1"/>
+                            <constraint firstAttribute="bottom" secondItem="j2e-Rp-wOa" secondAttribute="bottom" id="CHz-H5-x8z"/>
                             <constraint firstItem="j2e-Rp-wOa" firstAttribute="leading" secondItem="fJf-1t-VOW" secondAttribute="leading" id="eCT-xE-PsC"/>
                             <constraint firstItem="j2e-Rp-wOa" firstAttribute="top" secondItem="fJf-1t-VOW" secondAttribute="top" constant="30" id="uGA-bV-gR0"/>
-                            <constraint firstItem="fJf-1t-VOW" firstAttribute="trailing" secondItem="Ahg-fb-dmH" secondAttribute="trailing" id="zEW-Ek-X6u"/>
                         </constraints>
                     </view>
                     <toolbarItems/>
-                    <navigationItem key="navigationItem" title="Contenido" id="qDz-ea-brv">
-                        <barButtonItem key="leftBarButtonItem" title="menu" image="menucard" catalog="system" id="LIN-T9-xip">
-                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <navigationItem key="navigationItem" title="Contenido" style="browser" id="qDz-ea-brv">
+                        <barButtonItem key="leftBarButtonItem" title="menu" image="menubar.arrow.down.rectangle" catalog="system" id="LIN-T9-xip">
+                            <color key="tintColor" systemColor="systemGray3Color"/>
                             <connections>
                                 <action selector="didTapMenu:" destination="BYZ-38-t0r" id="JRY-0W-l5v"/>
                             </connections>
@@ -99,9 +85,12 @@
     </scenes>
     <color key="tintColor" systemColor="systemBackgroundColor"/>
     <resources>
-        <image name="menucard" catalog="system" width="108" height="128"/>
+        <image name="menubar.arrow.down.rectangle" catalog="system" width="128" height="93"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray3Color">
+            <color red="0.7803921568627451" green="0.7803921568627451" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

@@ -70,15 +70,15 @@ class MenuListController: UITableViewController {
         return version
     }
     
-    func buildNumber () -> String {
-        if var build = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String {
-            return build
-        }
-        return "Build Number Not Available"
-    }
+//    func buildNumber () -> String {
+//        if var build = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String {
+//            return build
+//        }
+//        return "Build Number Not Available"
+//    }
     
     func startNavigation( ){
-        present(ViewControllerB(), animated: true)
+        present(MenuButton(), animated: true)
     }
     
 }

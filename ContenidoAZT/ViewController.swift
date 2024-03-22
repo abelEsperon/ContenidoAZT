@@ -53,9 +53,7 @@ class ViewController: UIViewController {
             if let data = try? Data(contentsOf: url){
                 let decodificador = JSONDecoder()
 
-                if let datosDecodificados = try?
-                    decodificador.decode(Content.self, from: data) {
-
+                if let datosDecodificados = try? decodificador.decode(Content.self, from: data) {
                     contentTVA = datosDecodificados.items
                     tableContent.reloadData()
                 }
@@ -68,8 +66,7 @@ class ViewController: UIViewController {
             if let data = try? Data(contentsOf: urlAZT){
                  let decodificador = JSONDecoder( )
     
-                 if let datosDecodificados = try?
-                     decodificador.decode(Sitio.self, from: data) {
+                 if let datosDecodificados = try? decodificador.decode(Sitio.self, from: data) {
                      siteTVA = datosDecodificados.data
                      self.viewDidLoad()
                     }
@@ -77,6 +74,7 @@ class ViewController: UIViewController {
             }
         }
 }
+    
 
 extension ViewController: UITableViewDelegate, UITableViewDataSource {
     
